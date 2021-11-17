@@ -1,0 +1,80 @@
+================================================================================
+MGWR Version: 2.2.0
+Released on: 11/20/2019
+Source code is available at: https://github.com/pysal/mgwr
+Development Team: Ziqi Li, Taylor Oshan, Stewart Fotheringham, Wei Kang, 
+Levi Wolf, Hanchen Yu, and Mehak Sachdeva
+Spatial Analysis Research Center (SPARC)
+Arizona State University, Tempe, USA
+================================================================================
+Model type:                                                             Gaussian
+Number of observations:                                                     3106
+Number of covariates:                                                          5
+Dependent variable:                                               covid_incidence
+Variable standardization:                                                     On
+Total runtime:                                                           1:45:19
+
+Global Regression Results
+--------------------------------------------------------------------------------
+Residual sum of squares:                                                2582.954
+Log-likelihood:                                                        -4120.847
+AIC:                                                                    8251.694
+AICc:                                                                   8253.721
+R2:                                                                        0.168
+Adj. R2:                                                                   0.167
+
+Variable                                   Est.         SE  t(Est/SE)    p-value
+------------------------------------ ---------- ---------- ---------- ----------
+Intercept                                 0.000      0.016      0.000      1.000
+inequality                                0.157      0.019      8.054      0.000
+medIncome                                 0.257      0.019     13.370      0.000
+tot_nurse                                 0.180      0.018     10.051      0.000
+pcntblackfem                              0.174      0.018      9.472      0.000
+
+Multiscale Geographically Weighted Regression (MGWR) Results
+--------------------------------------------------------------------------------
+Coordinates type:                                                      Projected
+Spatial kernel:                                                Adaptive bisquare
+Criterion for optimal bandwidth:                                            AICc
+Score of change (SOC) type:                                          Smoothing f
+Termination criterion for MGWR:                                          1.0e-05
+Number of iterations used:                                                   149
+
+MGWR bandwidths
+--------------------------------------------------------------------------------
+Variable                  Bandwidth      ENP_j   Adj t-val(95%)            DoD_j
+Intercept                    44.000    143.481            3.580            0.382
+inequality                 3104.000      1.330            2.080            0.965
+medIncome                    44.000    148.703            3.590            0.378
+tot_nurse                  1389.000      4.939            2.573            0.801
+pcntblackfem                 44.000    137.816            3.570            0.387
+
+Diagnostic Information
+--------------------------------------------------------------------------------
+Residual sum of squares:                                                 820.159
+Effective number of parameters (trace(S)):                               436.269
+Degree of freedom (n - trace(S)):                                       2669.731
+Sigma estimate:                                                            0.554
+Log-likelihood:                                                        -2339.260
+Degree of Dependency (DoD):                                                0.444
+AIC:                                                                    5553.058
+AICc:                                                                                                                                     8194.642
+R2:                                                                        0.736
+Adj. R2:                                                                   0.693
+
+Summary Statistics For MGWR Parameter Estimates
+--------------------------------------------------------------------------------
+Variable                        Mean        STD        Min     Median        Max
+--------------------      ---------- ---------- ---------- ---------- ----------
+Intercept                     -0.062      0.328     -0.590     -0.130      3.120
+inequality                     0.028      0.002      0.025      0.028      0.032
+medIncome                      0.159      0.352     -0.354      0.091      5.496
+tot_nurse                      0.079      0.067      0.008      0.062      0.249
+pcntblackfem                   0.176      0.339     -0.822      0.112      3.684
+================================================================================
+Acknowledgement:
+We acknowledge the support of the National Science Foundation under Award 1758786 
+from the Geography and Spatial Sciences Program to A. S. Fotheringham which 
+enabled this software to be written and made freely available.
+================================================================================
+

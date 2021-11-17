@@ -1,0 +1,72 @@
+================================================================================
+MGWR Version: 2.2.0
+Released on: 11/20/2019
+Source code is available at: https://github.com/pysal/mgwr
+Development Team: Ziqi Li, Taylor Oshan, Stewart Fotheringham, Wei Kang, 
+Levi Wolf, Hanchen Yu, and Mehak Sachdeva
+Spatial Analysis Research Center (SPARC)
+Arizona State University, Tempe, USA
+================================================================================
+Model type:                                                             Gaussian
+Number of observations:                                                     3106
+Number of covariates:                                                          5
+Dependent variable:                                               covid_incidence
+Variable standardization:                                                     On
+Total runtime:                                                           0:00:05
+
+Global Regression Results
+--------------------------------------------------------------------------------
+Residual sum of squares:                                                2582.954
+Log-likelihood:                                                        -4120.847
+AIC:                                                                    8251.694
+AICc:                                                                   8253.721
+R2:                                                                        0.168
+Adj. R2:                                                                   0.167
+
+Variable                                   Est.         SE  t(Est/SE)    p-value
+------------------------------------ ---------- ---------- ---------- ----------
+Intercept                                 0.000      0.016      0.000      1.000
+inequality                                0.157      0.019      8.054      0.000
+medIncome                                 0.257      0.019     13.370      0.000
+tot_nurse                                 0.180      0.018     10.051      0.000
+pcntblackfem                              0.174      0.018      9.472      0.000
+
+Geographically Weighted Regression (GWR) Results
+--------------------------------------------------------------------------------
+Coordinates type:                                                      Projected
+Spatial kernel:                                                Adaptive bisquare
+Criterion for optimal bandwidth:                                            AICc
+Bandwidth used:                                                           52.000
+
+Diagnostic Information
+--------------------------------------------------------------------------------
+Residual sum of squares:                                                 874.994
+Effective number of parameters (trace(S)):                               645.979
+Degree of freedom (n - trace(S)):                                       2460.021
+Sigma estimate:                                                            0.596
+Log-likelihood:                                                        -2439.767
+Degree of Dependency (DoD):                                                0.395
+AIC:                                                                    6173.493
+AICc:                                                                   6514.604
+BIC:                                                                   10081.954
+R2:                                                                        0.718
+Adj. R2:                                                                   0.644
+Adj. alpha (95%):                                                          0.000
+Adj. critical t value (95%):                                               3.553
+
+Summary Statistics For GWR Parameter Estimates
+--------------------------------------------------------------------------------
+Variable                        Mean        STD        Min     Median        Max
+--------------------      ---------- ---------- ---------- ---------- ----------
+Intercept                      0.048      0.851     -6.219     -0.125     10.536
+inequality                     0.052      0.245     -0.848      0.015      3.944
+medIncome                      0.168      0.427     -0.599      0.081      5.125
+tot_nurse                      0.097      0.776     -5.695      0.063      6.721
+pcntblackfem                   0.349      1.490    -11.130      0.079     19.817
+================================================================================
+Acknowledgement:
+We acknowledge the support of the National Science Foundation under Award 1758786 
+from the Geography and Spatial Sciences Program to A. S. Fotheringham which 
+enabled this software to be written and made freely available.
+================================================================================
+
