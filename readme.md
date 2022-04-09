@@ -1,4 +1,4 @@
-# Reproduction of Vijayan et al 2020 Beyond the 405 and the 5: Geographic Variations and Factors Associated With Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Positivity Rates in Los Angeles County
+# Reproduction of Mollalo et al 2020 GIS-based spatial modeling of COVID-19 incidence rate in the continental United States
 
 This is a reproduction study of:
 
