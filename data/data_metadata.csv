@@ -1,3 +1,5 @@
 path,name,format,sources,metadata
-raw/private/rawfile1.csv,Name of data file 1,csv,,rawfile1_variables.pdf
-raw/derived/public/cleanDataFile1.csv,Clean public version of rawfile1.csv,csv,data/raw/private/rawfile1.csv,
+raw/public/2020 County Health Rankings Data - v2.csv,2020 County Health Rankings Data - v2,csv,, 
+raw/public/OES_Report.xlsx,OES Report,xlsx, ,
+raw/public/covid_confirmed_usafacts.csv,,csv,,
+derived/public/Mollalo_analysis.csv,Mollalo Analysis (for MGWR input),csv,,
