@@ -4,6 +4,9 @@ This is a reproduction study of:
 
 > Mollalo, A., Vahedi, B. and Rivera, K.M., 2020. GIS-based spatial modeling of COVID-19 incidence rate in the continental United States. Science of the total environment, 728, p.138884. DOI: [10.1016/j.scitotenv.2020.138884](https://doi.org/10.1016/j.scitotenv.2020.138884)
 
+This reproduction study is part of a publication:
+
+> Kedron, P., Bardin, S., Holler, J., Gilman, J., Grady, B., Seeley, M., Wang, X. and Yang, W. (2023), A Framework for Moving Beyond Computational Reproducibility: Lessons from Three Reproductions of Geographical Analyses of COVID-19. Geogr Anal. https://doi.org/10.1111/gean.12370
 
 ## Abstract
 
