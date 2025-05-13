@@ -27,7 +27,8 @@ Mollalo et al. (2020) investigated county-level variations of COVID-19 incidence
 
 > Link your reports, manuscripts, presentations, publication DOIs, preregistrations, etc. here. Delete this instruction and unused list items from your final repository. Adjust the file names and paths and add additional items as necessary.
 
-- Pre-analysis plan and study report: [docs/report/RP-Mollalo-Report.pdf](docs/report/RP-Mollalo-Report.docx)
+- Pre-analysis plan and study report: [docs/report/RP-Mollalo-Report.pdf](docs/report/RP-Mollalo-Report.pdf)
+- Publication: https://doi.org/10.1111/gean.12370
 
 ## Repository Contents
 
